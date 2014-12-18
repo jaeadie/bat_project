@@ -98,5 +98,5 @@ for line in fh.readlines():
   lcname=array2[name]
   # set the last contigs end postition to the current lines
   lcend=int(array2[end])
- # print the number of contigs that have been checkd and how many candidates there were
+ # print the number of contigs that have been checked and how many candidates there were
 print("%s contigs checked. %s candidates retained\n"%(contigs_checked, candidates))
